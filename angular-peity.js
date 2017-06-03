@@ -41,8 +41,13 @@ var buildChartDirective = function(chartType) {
         jQuery( span ).change();
       }, true);
 
+      var OptsWatcher = scope.$watch('options', function () {
+        jQuery(span).peity(chartType, options);
+      }, true);
+
       scope.$on('$destroy', function(){
         watcher();
+        OptsWatcher();
       });
 
       jQuery(window).resize(function() {
