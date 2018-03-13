@@ -1,0 +1,28 @@
+{
+  "name": "angular-peity",
+  "version": "1.0.0",
+  "description": "Fork of https://github.com/projectweekend/angular-peity with package.json",
+  "main": "angular-peity.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirantambe/angular-peity.git"
+  },
+  "keywords": [
+    "angular",
+    "peity",
+    "charts"
+  ],
+  "author": "Brian Hines <brian@projectweekend.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirantambe/angular-peity/issues"
+  },
+  "homepage": "https://github.com/kirantambe/angular-peity#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "peity": "^3.3.0"
+  }
+}
